@@ -33,8 +33,7 @@ function faaastr_register_menus() {
 add_action('init', 'faaastr_register_menus');
 
 // Ajouter les styles et scripts
-function faaastr_enqueue_styles() {
-    wp_enqueue_style('main-styles', get_template_directory_uri() . '/style.css');
-}
-add_action('wp_enqueue_scripts', 'faaastr_enqueue_styles');
-?>
+// function faaastr_enqueue_styles() {
+//     wp_enqueue_style('main-styles', get_template_directory_uri() . '/dist/css/main.min.css');
+// }
+// add_action('wp_enqueue_scripts', 'faaastr_enqueue_styles');
