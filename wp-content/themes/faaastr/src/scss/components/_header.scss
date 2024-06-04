@@ -1,3 +1,26 @@
-header{
-    background-color: red;
+.header{
+    background-color: $blanc;
+    padding:2.4rem 0;
+    
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__center{
+            ul{
+                display: flex;
+                gap:4.8rem;
+                
+                li a {
+                    font-size: 1.8rem;
+                }
+
+                .current-menu-item a {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
 }
