@@ -1,0 +1,39 @@
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:.8rem;
+    padding: 1.2rem 1.6rem;
+    background-color: $vert;
+    border: 1px solid $noir;
+    box-shadow: 4px 4px 0 $mauve--600;
+    border-radius: .5rem;
+    transition: .2s;
+    cursor: pointer;
+
+    &:hover{
+        border: none;
+        box-shadow: none;
+    }
+
+    a{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color:$blanc;
+    }
+    
+    &__icon{
+        width: 2.4rem;
+        height: 2.4rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        &--projet{
+            background-image: url('src/svg/accueil/projet.svg');
+        }
+
+        &--arrow{
+            background-image: url('src/svg/accueil/arrow.svg');
+        }
+    }
+}

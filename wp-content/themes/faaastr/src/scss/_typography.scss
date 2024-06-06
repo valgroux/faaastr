@@ -80,31 +80,3 @@ p{
     line-height: calc(1.6rem * 1.4);
     color:$noir;
 }
-
-
-.cta{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:.8rem;
-    padding: 1.2rem 1.6rem;
-    background-color: $vert;
-    border: 1px solid $noir;
-    box-shadow: 4px 4px 0 $mauve--600;
-}
-
-.cta__icon{
-    width: 2.4rem;
-    height: 2.4rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain
-}
-
-.cta__icon--contact{
-    background-image: url('../svg/accueil/arrow.svg');
-}
-
-.cta__icon--projet{
-    background-image: url('../svg/accueil/projet.svg');
-}
