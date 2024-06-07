@@ -6,14 +6,15 @@
     padding: 1.2rem 1.6rem;
     background-color: $vert;
     border: 1px solid $noir;
-    box-shadow: 4px 4px 0 $mauve--600;
+    box-shadow: 4px 4px 0 $mauve;
     border-radius: .5rem;
-    transition: .2s;
+    transition: .3s;
     cursor: pointer;
 
     &:hover{
-        border: none;
-        box-shadow: none;
+        background-color: $mauve;
+        border: 1px solid $noir;
+        box-shadow: 4px 4px 0 $vert;
     }
 
     a{
@@ -34,6 +35,26 @@
 
         &--arrow{
             background-image: url('src/svg/accueil/arrow.svg');
+        }
+    }
+}
+
+.cta-secondaire{
+    padding: 1.2rem 1.6rem;
+    background-color: $blanc;
+    border: none;
+    border-radius: .5rem;
+    transition: .2s;
+    cursor: pointer;
+
+    a{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color:$mauve;
+        transition:.3s;
+        
+        &:hover{
+            color:$vert;
         }
     }
 }

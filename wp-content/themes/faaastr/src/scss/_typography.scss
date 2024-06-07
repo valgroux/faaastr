@@ -3,29 +3,36 @@
 @font-face {
     font-family: 'Inter';
     font-weight: 400;
-    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
-         url('../fonts/Inter-Regular.woff') format('woff');
+    src: url('src/fonts/Inter-Regular.woff2') format('woff2'),
+         url('src/fonts/Inter-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Inter';
     font-weight: 500;
-    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
-         url('../fonts/Inter-Medium.woff') format('woff');
+    src: url('src/fonts/Inter-Medium.woff2') format('woff2'),
+         url('src/fonts/Inter-Medium.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Inter';
     font-weight: 600;
-    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
-         url('../fonts/Inter-SemiBold.woff') format('woff');
+    src: url('src/fonts/Inter-SemiBold.woff2') format('woff2'),
+         url('src/fonts/Inter-SemiBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Inter';
     font-weight: 700;
-    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
-         url('../fonts/Inter-Bold.woff') format('woff');
+    src: url('src/fonts/Inter-Bold.woff2') format('woff2'),
+         url('src/fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    font-weight: 700;
+    src: url('src/fonts/Recoleta-Bold.woff2') format('woff2'),
+         url('src/fonts/Recoleta-Bold.woff') format('woff');
 }
 
 

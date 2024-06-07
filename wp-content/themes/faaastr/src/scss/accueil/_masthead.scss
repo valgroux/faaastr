@@ -1,0 +1,48 @@
+.masthead{
+    padding: 8rem 0 12rem;
+    background-image:url('src/img/accueil/masthead-x2.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top 0 right 4rem;
+
+    &__content{
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    &__content__left{
+        width:55%;
+    }
+
+    &__content__left .h1{
+        margin-bottom: 2.4rem;
+    }
+
+    &__content__left p{
+        margin-bottom: 4rem;
+    }
+
+    &__content__left__links{
+        display: flex;
+        gap:2.4rem;
+        margin-bottom: 4rem;
+    }
+
+    .text-highlight{
+        font-family: 'Recoleta';
+        background-color: $vert--300;
+    }
+    
+    &__content__left__quote{
+        display: flex;
+        gap:1.6rem;
+        align-items: center;
+
+        &__content__left__quote__star{
+            height: 3rem;
+            width: 3rem;
+            background-image: url('src/svg/accueil/etoile.svg');
+        }
+    }
+}
