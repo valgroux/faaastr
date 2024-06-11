@@ -1,25 +1,21 @@
 .masthead{
-    padding: 8rem 0 12rem;
-    background-image:url('src/img/accueil/masthead-x2.png');
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: top 0 right 4rem;
+    padding-bottom: 12rem;
 
     &__content{
         display: flex;
-        align-items: stretch;
-        justify-content: space-between;
+        align-items: center;
     }
 
     &__content__left{
-        width:55%;
+        width: 50%;
     }
 
     &__content__left .h1{
         margin-bottom: 2.4rem;
+        position: relative;
     }
 
-    &__content__left p{
+    &__content__left__text{
         margin-bottom: 4rem;
     }
 
@@ -29,20 +25,68 @@
         margin-bottom: 4rem;
     }
 
-    .text-highlight{
-        font-family: 'Recoleta';
-        background-color: $vert--300;
-    }
-    
     &__content__left__quote{
+        display: flex;
+        gap: 4.8rem;
+    }
+
+    &__content__left__quote__left{
         display: flex;
         gap:1.6rem;
         align-items: center;
+    }  
 
-        &__content__left__quote__star{
-            height: 3rem;
-            width: 3rem;
-            background-image: url('src/svg/accueil/etoile.svg');
-        }
+    &__content__left__quote__left p{
+        font-weight: 600;
     }
+
+    &__content__left__quote__left span{
+        font-weight: 400;
+        color: $gris--fonce;
+    }
+
+
+    &__content__left__quote__star{
+        height: 3rem;
+        width: 3rem;
+        background-image: url('src/svg/accueil/etoile.svg');
+        background-repeat: no-repeat;
+    }
+
+    &__content__left__quote__right{
+        width: 15rem;
+        height: 8.8rem;
+        background-image: url('src/svg/accueil/arrow-down.svg');
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center bottom;
+    }
+
+    .text-highlight,
+    .text-highlight-arrow{
+        font-family: 'Recoleta';
+        background-color: $vert--300;
+        position: relative;
+    }
+
+    .text-highlight-arrow::after{
+        position: absolute;
+        content:'';
+        height: 1.8rem;
+        width: 10.5rem;
+        background-image: url('src/svg/accueil/fleche.svg');
+        top: 50%; /* poussé de la moitié de hauteur du référent */
+        transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+        right:-45%;
+
+    }
+
+    &__content__right{
+        width: 50%;
+        background-image:url('src/img/accueil/masthead-x2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 72rem;
+    }
+
 }

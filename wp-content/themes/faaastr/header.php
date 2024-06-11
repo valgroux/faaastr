@@ -7,7 +7,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container--1700">
+        <div class="container--1600">
             <div class="header__content">
 
                 <div class="header__content__left">
