@@ -32,9 +32,25 @@ function faaastr_register_menus() {
 }
 add_action('init', 'faaastr_register_menus');
 
-// Ajouter les styles et scripts
+// Ajouter les styles
 function faaastr_enqueue_styles() {
     wp_enqueue_style('main-styles', get_template_directory_uri() . '/style.css');
 }
 add_action('wp_enqueue_scripts', 'faaastr_enqueue_styles');
+
+// Charger le script bundle.js en tant que module
+function enqueue_main_script() {
+    wp_enqueue_script('main-js', get_template_directory_uri() . '/dist/js/bundle.js', array(), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_main_script');
+
+// Ajouter l'attribut type="module" au script main-js
+function add_type_attribute($tag, $handle) {
+    if ('main-js' !== $handle) {
+        return $tag;
+    }
+    return str_replace(' src', ' type="module" src', $tag);
+}
+add_filter('script_loader_tag', 'add_type_attribute', 10, 2);
+
 ?>
