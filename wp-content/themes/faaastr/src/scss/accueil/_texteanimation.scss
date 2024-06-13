@@ -1,0 +1,33 @@
+.texte{
+    margin-bottom: 12rem;
+
+    .js-texte-animation .swiper1 {
+        margin-bottom: 2.4rem;
+
+    }
+    &__title{
+        font-family: 'Recoleta';
+        font-size: 8rem;
+        text-align: center;
+        position: relative;
+        color:$gris-clair;
+        transition: .2s;
+        text-transform: uppercase;
+        &:hover{
+            color:$mauve;
+        }
+        // &::after{
+        //     content:'';
+        //     position: absolute;
+        //     width: 1.6rem;
+        //     height: 3.2rem;
+        //     margin-left: 1.6rem;
+        //     background-image: url('src/svg/accueil/icone.svg');
+        //     background-size: contain;
+        //     background-repeat: no-repeat;
+        //     top:50%;
+        //     transform: translateY(-50%);
+        // }
+    }
+    
+}

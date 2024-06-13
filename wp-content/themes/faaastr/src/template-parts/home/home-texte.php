@@ -1,25 +1,27 @@
 <section class="texte">
-    <div class="container--1600">
-                <!-- Slider main container -->
-        <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
+
+    <div class="js-texte-animation">
+        <div class="swiper-container swiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide texte__title"><span class="texte__content">Temps</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">Argent</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">No-Code</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">Métier</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">Expert</span></div>
+            </div>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-        </div>
-
     </div>
+
+    <div class="js-texte-animation">
+        <div class="swiper-container swiper2">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide texte__title"><span class="texte__content">Temps</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">Argent</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">No-Code</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">Métier</span></div>
+                <div class="swiper-slide texte__title"><span class="texte__content">Expert</span></div>
+            </div>
+        </div>
+    </div>
+
 </section>
