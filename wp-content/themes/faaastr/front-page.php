@@ -9,6 +9,8 @@
 <!-- SECTION TEXTE ANIME -->
 <?php get_template_part('src/template-parts/home/home-texte')?>
 
+<!-- SECTION NOS DEFIS -->
+<?php get_template_part('src/template-parts/home/home-defis')?>
 
 
 <?php get_footer();?>
