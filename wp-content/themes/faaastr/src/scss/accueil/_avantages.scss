@@ -1,0 +1,106 @@
+@keyframes bounce-top-stay {
+    0% {
+        transform: translateY(0);
+        animation-timing-function: ease-in-out;
+    }
+    50% {
+        transform: translateY(-2.4rem); // Ajustement pour le rebond
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+.avantages {
+    padding: 12rem 0;
+    background-color: $gris;
+    border-radius: 0 0 8rem 8rem;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 4.8rem;
+    }
+
+    span {
+        font-family: 'Recoleta';
+        color: $vert;
+    }
+
+    &__bloc {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        gap: 4rem; // Ajoutez votre gap ici
+    }
+
+    &__bloc__grand,
+    &__bloc__petit {
+        background-color: $blanc;
+        padding: 4rem;
+        border-radius: 2.4rem;
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out; // Réduire la durée de la transition pour un effet plus rapide
+
+        &:hover {
+            animation: bounce-top-stay 0.6s forwards;
+        }
+
+        &:not(:hover) {
+            transform: translateY(0);
+            transition:.6s
+        }
+
+        h3 {
+            margin-bottom: 1.6rem;
+        }
+    }
+
+    &__bloc__grand {
+        width: calc(55% - 2rem); // Réduire de la moitié du gap pour tenir compte des marges
+    }
+
+    &__bloc__petit {
+        width: calc(45% - 2rem); // Réduire de la moitié du gap pour tenir compte des marges
+    }
+
+    &__bloc__grand:nth-last-child(2),
+    &__bloc__petit:nth-last-child(1) {
+        padding: 0 4rem 4rem 4rem;
+    }
+
+    &__bloc__grand__img,
+    &__bloc__petit__img {
+        width: 100%;
+        padding-bottom: 24rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 1.6rem;
+    }
+
+    .img-grand-1 {
+        background-image: url('src/svg/accueil/automatisation.svg');
+    }
+
+    .img-grand-2 {
+        background-image: url('src/svg/accueil/metier.svg');
+    }
+
+    .img-grand-3 {
+        background-image: url('src/svg/accueil/crm.svg');
+    }
+
+    .img-petit-1 {
+        background-image: url('src/svg/accueil/temps.svg');
+        background-size: 30%; // Ajustement de la taille du fond d'écran
+    }
+
+    .img-petit-2 {
+        background-image: url('src/svg/accueil/optimisation.svg');
+    }
+
+    .img-petit-3 {
+        background-image: url('src/svg/accueil/no-code.svg');
+    }
+}
