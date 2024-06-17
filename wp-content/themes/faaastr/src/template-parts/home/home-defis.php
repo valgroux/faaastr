@@ -10,7 +10,7 @@
                 <p>Tous nos logiciels sont développés pour répondre à u besoin spécifique : le tien. Pour t’aider à grandir, nous avons besoin de comprendre les difficultés que tu rencontres. L’écoute est au coeur de notre approche pour mener à la réussite. On ne fait pas de suppositions, on veut juste des résultats</p>
 
                 <button class="cta">
-                    <div class="cta__icon cta__icon--projet"></div>
+                    <div class="cta__icon cta__icon--arrow"></div>
                     <a href="#">Tu as un projet ? Parlons en</a>
                 </button>
 

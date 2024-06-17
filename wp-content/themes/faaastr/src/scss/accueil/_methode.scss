@@ -1,0 +1,62 @@
+.methode{
+    background-color: $mauve;
+    padding:12rem 0;
+    background-image: url('src/img/accueil/methode.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40%;
+
+    &__content{
+        display: flex;
+    }
+
+    &__content__left,
+    &__content__right{
+        width: 50%;
+    }
+
+    &__content__right h2{
+        color:$blanc;
+        margin-bottom: 4.8rem;
+    }
+
+    &__content__right h3{
+        color:$jaune;
+    }
+
+    &__content__right__bloc{
+        margin-bottom: 4rem;
+    }
+
+    &__content__right__bloc__top{
+        display: flex;
+        margin-bottom: .8rem;
+        gap:2.4rem;
+    }
+
+    &__content__right__bloc__top__icone{
+        width: 5.6rem;
+        height: 5.6rem;
+        background-color: $jaune;
+        border-radius: .5rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+    }
+
+    .icone-efficacite{
+        background-image: url('src/svg/accueil/efficacite.svg');
+    }
+
+    .icone-accompagnement{
+        background-image: url('src/svg/accueil/accompagnement.svg');
+    }
+
+    .icone-surmesure{
+        background-image: url('src/svg/accueil/surmesure.svg');
+    }
+
+    &__content__right__bloc p {
+        color:$blanc;
+    }
+}

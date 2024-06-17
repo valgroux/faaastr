@@ -15,5 +15,7 @@
 <!-- SECTION NOS DEFIS -->
 <?php get_template_part('src/template-parts/home/home-avantages')?>
 
+<!-- SECTION NOTRE METHODE -->
+<?php get_template_part('src/template-parts/home/home-methode')?>
 
 <?php get_footer();?>
