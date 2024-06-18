@@ -1,0 +1,99 @@
+.avis{
+    background-color: $blanc;
+    padding: 12rem 0;
+    background-image: url('src/svg/accueil/f_pattern.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    &__content{
+        display: flex;
+        gap:8rem;
+    }
+
+    &__content__left{
+        width: calc(40% - 2rem);
+    }
+
+    &__content__left p{
+        margin-top: 1.6rem;
+        margin-bottom: 2.4rem;
+    }
+
+    &__content__right{
+        width: calc(60% - 2rem);
+    }
+
+    &__content__left__arrow{
+        display: flex;
+        gap: 1.6rem;
+    }
+
+    &__content__left__arrow__left,
+    &__content__left__arrow__right{
+        width: 4.8rem;
+        height: 4.8rem;
+        background-image: url('src/svg/accueil/arrow_gauche.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1.6rem;
+        border: 1px solid $vert;
+        border-radius: 100%;
+        cursor: pointer;
+        transition: .3s;
+        &:hover{
+            rotate: -180deg;
+            background-image: url('src/svg/accueil/arrow_droite.svg');
+            background-color: $vert;
+        }
+    }
+
+    &__content__left__arrow__right{
+        background-color: $vert;
+        background-image: url('src/svg/accueil/arrow_droite.svg');
+        &:hover{
+            background-image: url('src/svg/accueil/arrow_gauche.svg');
+            background-color: $blanc;
+            rotate: -180deg;
+            border: 1px solid $vert;
+        }
+    }
+
+    &__content__right__guillement{
+        width: 6.4rem;
+        background-image: url('src/svg/accueil/guillemet.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        padding-bottom: 5rem;
+        margin-bottom: 2.4rem;
+    }
+
+    &__content__right__avis{
+        font-size: 4rem;
+        line-height: calc(4rem * 1.4);
+        margin-bottom: 2.4rem;
+    }
+
+    &__content__right__personne{
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+    }
+
+    &__content__right__personne__img{
+        width: 5.6rem;
+        height: 5.6rem;
+        background-image: url('src/img/accueil/guillaume.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &__content__right__personne__texte__username{
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+
+    &__content__right__personne__texte__poste{
+        font-size: 1.6rem;
+    }
+}

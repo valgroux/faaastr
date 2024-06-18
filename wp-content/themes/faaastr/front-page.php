@@ -18,4 +18,7 @@
 <!-- SECTION NOTRE METHODE -->
 <?php get_template_part('src/template-parts/home/home-methode')?>
 
+<!-- SECTION AVIS -->
+<?php get_template_part('src/template-parts/home/home-avis')?>
+
 <?php get_footer();?>
