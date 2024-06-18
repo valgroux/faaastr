@@ -21,4 +21,7 @@
 <!-- SECTION AVIS -->
 <?php get_template_part('src/template-parts/home/home-avis')?>
 
+<!-- SECTION PERFORMANCE -->
+<?php get_template_part('src/template-parts/home/home-performance')?>
+
 <?php get_footer();?>

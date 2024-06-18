@@ -1,0 +1,39 @@
+.performance{
+    display: flex;
+
+    &__bloc{
+        width: calc(100% / 3);
+        padding:8rem;
+    }
+
+    &__bloc--jaune{
+        background-color: $jaune;
+    }
+
+    &__bloc--vert{
+        background-color: $vert;
+    }
+
+    &__bloc--rose{
+        background-color: $rose;
+    }
+
+    &__bloc__entreprise{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color:$blanc;
+        margin-bottom: 4rem;
+    }
+
+    &__bloc__chiffre{
+        font-size: 7rem;
+        font-weight: 700;
+        color:$blanc;
+        margin-bottom: 4rem;
+    }
+    
+    &__bloc__texte{
+        margin-top: 4rem;
+        color:$blanc;
+    }
+}
