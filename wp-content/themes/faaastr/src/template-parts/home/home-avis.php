@@ -39,7 +39,7 @@
                         </div>
 
                         <div class="swiper-slide">
-                            <p class="avis__content__right__avis">En plus d'une approche technique hyper pro, Anthony a le goût des choses bien faites ets'approprie les projets super bien.</p>
+                            <p class="avis__content__right__avis">En plus d'une approche technique hyper pro, Anthony a le goût des choses bien faites et s'approprie les projets super bien.</p>
                             <div class="avis__content__right__personne">
                                 <div class="avis__content__right__personne__img"></div>
                                 <div class="avis__content__right__personne__texte">

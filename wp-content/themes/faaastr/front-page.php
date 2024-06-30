@@ -24,4 +24,7 @@
 <!-- SECTION PERFORMANCE -->
 <?php get_template_part('src/template-parts/home/home-performance')?>
 
+<!-- SECTION TEAM -->
+<?php get_template_part('src/template-parts/home/home-team')?>
+
 <?php get_footer();?>
