@@ -27,4 +27,7 @@
 <!-- SECTION TEAM -->
 <?php get_template_part('src/template-parts/home/home-team')?>
 
+<!-- SECTION TEAM -->
+<?php get_template_part('src/template-parts/home/home-blog')?>
+
 <?php get_footer();?>

@@ -25,10 +25,33 @@
                 
                 li a {
                     font-size: 1.8rem;
+                    position: relative;
+                    display: inline-block;
+                    padding: 1.2rem .5rem;
+                
+                    &::after {
+                        content: '';
+                        background-color: $noir;
+                        height: .3rem;
+                        width: 60%;
+                        position: absolute;
+                        text-align: center;
+                        border-radius: 50px;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%) scaleX(0);
+                        transform-origin: center;
+                        transition: transform 0.4s ease-out;
+                    }
+                
+                    &:hover::after {
+                        transform: translateX(-50%) scaleX(1);
+                    }
                 }
 
                 .current-menu-item a {
                     font-weight: 600;
+                    position: relative;
                 }
             }
         }

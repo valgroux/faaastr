@@ -19,7 +19,7 @@
                         </h1>
                     <?php else : ?>
                         <a href="<?= esc_url( home_url( '/' )); ?>">
-                            <img src="<?= get_template_directory_uri() ?>/assets/svg/logo.svg" alt="FAAASTR, Optimisez, Automatisez, Se démarquer" width="154" height="47" loading="lazy">
+                            <img src="<?= get_template_directory_uri() ?>/src/img/logo.webp" alt="FAAASTR, Optimisez, Automatisez, Se démarquer" width="154" height="47" loading="lazy">
                         </a>
                     <?php endif; ?>
                 </div>

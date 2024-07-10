@@ -1,0 +1,117 @@
+.footer{
+    background-color: $noir;
+    background-image: url('src/svg/accueil/grille.svg');
+    padding:8rem 0;
+
+    &__text,
+    &__cta,
+    &__info{
+        text-align: center;
+    }
+
+    &__text p{
+        color:$blanc;
+        font-weight: 500;
+        margin-bottom: 2.4rem;
+    }
+
+    &__cta p {
+        font-family: 'Recoleta';
+        color:$vert;
+        text-transform: uppercase;
+        font-size: 8rem;
+        line-height: calc(8rem * 1.4);
+        margin-bottom: 2.4rem;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        transition: .2s;
+        &::after{
+            position: absolute;
+            content:'';
+            width: 100%;
+            height: .2rem;
+            background-color: $vert;
+            bottom:0;
+            right: 0;
+        }
+        &:hover{
+            color:$blanc;
+        }
+    }
+
+    &__info{
+        margin-top: 4rem;
+    }
+
+    &__info p {
+        color:$gris--fonce;
+        font-weight: 600;
+        margin-bottom: 1.6rem;
+    }
+
+    &__separator{
+        height: .1rem;
+        width: 100%;
+        background-color: $blanc;
+        margin-top: 8rem;
+    }
+
+    &__menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:4.8rem 0;
+    }
+
+    &__menu__left{
+        width: 30%;
+    }
+
+    &__menu__left__logo{
+        width: 15.4rem;
+        padding-bottom: 5rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('src/img/logo_blanc.png');
+        margin-bottom: 1.6rem;
+    }
+
+    &__menu__left p{
+        color:$blanc;
+    }
+
+    &__menu__left__note{
+        display: flex;
+        gap: 4.8rem;
+        margin-top: 1.6rem;
+    }
+
+    &__menu__left__note{
+        display: flex;
+        gap:1.6rem;
+        align-items: center;
+    }  
+
+    &__menu__left__note p{
+        font-weight: 600;
+    }
+
+    &__menu__left__note{
+        font-weight: 400;
+        color: $gris--fonce;
+    }
+
+    &__menu__left__note span{
+        font-weight: 400;
+        color: $gris--fonce;
+    }
+
+    &__menu__left__note__icone{
+        height: 3rem;
+        width: 3rem;
+        background-image: url('src/svg/accueil/etoile.svg');
+        background-repeat: no-repeat;
+    }
+    
+}
