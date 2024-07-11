@@ -54,3 +54,4 @@ function add_type_attribute($tag, $handle) {
 add_filter('script_loader_tag', 'add_type_attribute', 10, 2);
 
 ?>
+

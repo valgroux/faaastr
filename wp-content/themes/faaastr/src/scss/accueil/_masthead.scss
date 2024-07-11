@@ -88,5 +88,100 @@
         background-repeat: no-repeat;
         padding-bottom: 72rem;
     }
+}
 
+
+@media (max-width:1070px) {
+    .masthead {
+        .container--1600{
+            max-width: 100%;
+            padding: 0rem 0 0 4rem;
+        }
+
+        &__content__left .text-highlight-arrow::after{
+            display: none;
+        }
+
+        &__content__left__text,
+        &__content__left__links{
+            margin-bottom: 2.4rem;
+        }
+
+        &__content__left{
+            display: inline;
+        }
+
+        &__content__right{
+            background-image: url('src/img/accueil/masthead-tablette.png');
+            padding-bottom: 57rem;
+        }
+    }
+}
+
+
+@media (max-width:970px) {
+    .masthead{
+        &__content__left{
+            width: 70%;
+        }
+
+        &__content__left__quote__right{
+            display: none;
+        }
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .masthead {
+
+        &__content__left{
+            width: 50%;
+        }
+
+        &__content__right{
+            background-image: url('src/img/accueil/masthead-tablette-2.png');
+            padding-bottom: 48rem;
+        }
+
+        &__content__left__links{
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .masthead {
+
+        .container--1600{
+            max-width: 100%;
+            padding: 0 2.4rem;
+        }
+
+        &__content{
+            display: block;
+            margin: 4rem 0;
+        }
+
+        &__content__right{
+            width: 100%;
+            background-image: url('src/img/accueil/masthead-tablette-3.png');
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .masthead {
+
+        .container--1600{
+            max-width: 100%;
+            padding: 0 2.4rem;
+        }
+
+        &__content{
+            display: block;
+            margin: 4rem 0;
+        }
+    }
 }

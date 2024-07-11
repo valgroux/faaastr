@@ -28,14 +28,25 @@
                     <?php wp_nav_menu( array( 'theme_location' => 'header-desktop-menu', 'menu' => 'header-desktop', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
                 </nav>
 
-
                 <div class="header__content__right">
                     <button class="cta">
                         <div class="cta__icon cta__icon--projet"></div>
                         <a href="#">Tu as un projet ? Parlons en</a>
                     </button>
                 </div>
-                
+
+                <div id="menu" class="header__content__burger">
+                    <button class="header__content__burger__btn">
+                        <span class="bar bar-top"></span>
+                        <span class="bar bar-bottom"></span>
+                    </button>
+                    <div class="header__content__burger__wrapper">
+                        <?php wp_nav_menu( array( 'theme_location' => 'header-desktop-menu', 'menu' => 'header-desktop', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
+</body>
+</html>

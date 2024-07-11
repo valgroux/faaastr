@@ -39,6 +39,7 @@
     }
 }
 
+
 .cta-secondaire{
     padding: 1.2rem 1.6rem;
     background-color: $blanc;
@@ -55,6 +56,31 @@
         
         &:hover{
             color:$vert;
+        }
+    }
+}
+
+
+@media (max-width:1070px) {
+    .cta a{
+        font-size: 1.4rem;
+        line-height: calc(1.4rem * 1.4);
+    }
+}
+
+@media (max-width:1035px) {
+    .cta{
+        &__icon{
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width:970px) {
+    .cta{
+        &__icon{
+            display: none;
         }
     }
 }

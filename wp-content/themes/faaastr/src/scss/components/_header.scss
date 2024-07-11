@@ -1,28 +1,28 @@
-.header{
+.header {
     background-color: $blanc;
-    padding:2.4rem 0;
+    padding: 2.4rem 0;
     position: relative;
 
-    &::after{
-        content:'';
+    &::after {
+        content: '';
         position: absolute;
-        bottom:0;
-        background: rgb(255,190,12);
-        background: linear-gradient(90deg, rgba(255,190,12,1) 0%, rgba(255,0,110,1) 50%, rgba(255,190,12,1) 100%);
+        bottom: 0;
+        background: linear-gradient(90deg, rgba(255, 190, 12, 1) 0%, rgba(255, 0, 110, 1) 50%, rgba(255, 190, 12, 1) 100%);
         height: .4rem;
         width: 100%;
     }
-    
-    &__content{
+
+    &__content {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
 
-        &__center{
-            ul{
+        &__center {
+            ul {
                 display: flex;
-                gap:4.8rem;
-                
+                gap: 4.8rem;
+
                 li a {
                     font-size: 1.8rem;
                     position: relative;
@@ -33,19 +33,19 @@
                         content: '';
                         background-color: $noir;
                         height: .3rem;
-                        width: 60%;
+                        width: 70%;
                         position: absolute;
                         text-align: center;
                         border-radius: 50px;
                         bottom: 0;
                         left: 50%;
-                        transform: translateX(-50%) scaleX(0);
+                        transform: translateX(-50%) scaleX(0); /* Center horizontally and initially scale to 0 */
                         transform-origin: center;
                         transition: transform 0.4s ease-out;
                     }
                 
                     &:hover::after {
-                        transform: translateX(-50%) scaleX(1);
+                        transform: translateX(-50%) scaleX(1); /* Scale to full width while maintaining center position */
                     }
                 }
 
@@ -55,6 +55,112 @@
                 }
             }
         }
-    }
 
+        &__burger {
+            height: 5.6rem;
+            width: 5.6rem;
+            position: relative;
+
+            &__btn {
+                background-color: $noir;
+                border: none;
+                border-radius: 100%;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 5.6rem;
+                height: 5.6rem;
+                z-index: 2;
+                padding: .5rem;
+                cursor: pointer;
+
+                .bar {
+                    background-color: $blanc;
+                    display: block;
+                    height: .15rem;
+                    left: calc(50% - 1rem);
+                    position: absolute;
+                    top: calc(50% - .5px);
+                    transform-origin: 50% 50%;
+                    transition: all .2s ease-in-out;
+                    width: 2rem;
+                }
+
+                .bar-top {
+                    transform: translateY(-4.25px) rotate(0);
+                }
+
+                .bar-bottom {
+                    transform: translateY(2.75px) rotate(0);
+                }
+            }
+
+            &.open .bar-top {
+                transform: translateY(0) rotate(45deg);
+            }
+
+            &.open .bar-bottom {
+                transform: translateY(0) rotate(-45deg);
+            }
+
+            &__wrapper {
+                background-color: $noir;
+                border-radius: 2.4rem;
+                box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+                color: $blanc;
+                padding: 4rem;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: scale(0);
+                transform-origin: 100% 0;
+                transition: transform 0.3s ease-in-out;
+                z-index: 1;
+                width: 32rem;
+                padding-top: 4.8rem;
+
+                li:last-child{
+                    margin-bottom: 0;
+                }
+
+                .current-menu-item{
+                    font-weight: 600;
+                }
+            }
+
+            &__wrapper li {
+                margin-bottom: 3.2rem;
+            }
+
+            &__wrapper a {
+                color: $blanc;
+                font-size: 2rem;
+            }
+
+            &.open &__wrapper {
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+@media (min-width: 1170px) {
+    .header {
+        &__content__burger {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1170px) {
+    .header {
+        &__content__center,
+        &__content__right {
+            display: none;
+        }
+
+        &__content__burger {
+            display: block;
+        }
+    }
 }

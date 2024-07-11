@@ -39,6 +39,6 @@
 
     </div>
 </footer>
-<script src="<?php echo esc_url(get_template_directory_uri() . '/src/js/main.js'); ?>"></script>
+<script type="module" src="<?php echo esc_url(get_template_directory_uri() . '/src/js/main.js'); ?>"></script>
 </body>
 </html>
