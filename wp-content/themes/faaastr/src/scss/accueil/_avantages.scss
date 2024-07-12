@@ -104,3 +104,42 @@
         background-image: url('src/svg/accueil/no-code.svg');
     }
 }
+
+
+@media (max-width:1024px){
+    .avantages{
+        &__bloc__grand__img,
+        &__bloc__petit__img{
+            padding-bottom: 16rem;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .avantages{
+        &__bloc{
+            gap:2.4rem;
+        }
+    }
+}
+
+@media (max-width:425px){
+    .avantages{
+        &__bloc{
+            flex-wrap: wrap;
+        }
+        &__bloc__grand,
+        &__bloc__petit{
+            width: 100%;
+        }
+
+        .img-petit-1,
+        .img-petit-2,
+        .img-petit-3,
+        .img-grand-1,
+        .img-grand-2,
+        .img-grand-3{
+            background-position: center;
+        }
+    }
+}

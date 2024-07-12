@@ -97,3 +97,43 @@
         font-size: 1.6rem;
     }
 }
+
+
+@media (max-width:1024px){
+    .avis{
+        &__content__right__avis{
+            font-size: 2.4rem;
+            line-height: calc(2.4rem * 1.4);
+        }
+    }
+}
+
+@media (max-width:425px){
+    .avis{
+        padding: 8rem 0;
+        background-image: none;
+        &__content{
+            display: block;
+        }
+
+        &__content__left,
+        &__content__right{
+            width: 100%;
+            margin-bottom: 2.4rem;
+        }
+
+        &__content__left h2,
+        &__content__left p{
+            text-align: center;
+        }
+
+        &__content__left__arrow{
+            justify-content: center;
+        }
+
+        .confiance{
+            display: inline;
+            text-align: center;
+        }
+    }
+}

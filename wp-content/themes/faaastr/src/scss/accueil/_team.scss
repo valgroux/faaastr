@@ -99,3 +99,17 @@
         background-position: center;
     }
 }
+
+@media (max-width:425px){
+    .team{
+        &__content{
+            flex-wrap: wrap;
+        }
+        &__content__bloc{
+            margin-bottom: 0;
+        }
+        &__content__bloc:nth-child(2){
+            margin-bottom: 2.4rem;
+        }
+    }
+}

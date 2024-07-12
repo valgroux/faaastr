@@ -121,6 +121,7 @@
 
 @media (max-width:970px) {
     .masthead{
+        padding-bottom: 5.6rem;
         &__content__left{
             width: 70%;
         }
@@ -171,6 +172,14 @@
     }
 }
 
+@media (max-width:500px) {
+    .masthead {
+        &__content__right{
+            padding-bottom: 42rem;
+        }
+    }
+}
+
 @media (max-width:425px) {
     .masthead {
 
@@ -182,6 +191,20 @@
         &__content{
             display: block;
             margin: 4rem 0;
+        }
+
+        &__content__right{
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width:375px) {
+    .masthead {
+        padding-bottom: 2.4rem;
+        &__content__right{
+            padding-bottom: 31rem;
         }
     }
 }

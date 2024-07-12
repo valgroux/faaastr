@@ -26,7 +26,7 @@ class TexteAnimation {
         new Swiper(element, {
             direction: 'horizontal',
             loop: true,
-            slidesPerView: 3, // Multiple slides in view for continuous effect
+            slidesPerView: 3, // Default slides per view
             spaceBetween: 0,
             speed: 4000, // Transition speed in ms
             autoplay: {
@@ -34,14 +34,21 @@ class TexteAnimation {
                 disableOnInteraction: false, // Continue autoplay after interaction
                 reverseDirection: reverseDirection, // Change direction
             },
-            loopedSlides: 3, // Number of slides to loop for proper looping
+            breakpoints: {
+                315: {
+                    slidesPerView: 2, // 2 slides per view for screens 690px and larger
+                },
+                700:{
+                    slidesPerView:3
+                }
+            },
             allowTouchMove: false, // Disable swiping for continuous scroll
         });
     }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const texteAnimation = new TexteAnimation();
+    new TexteAnimation();
 });
 
 export { TexteAnimation };

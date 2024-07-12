@@ -10,7 +10,7 @@
 
                 <div class="avantages__bloc__grand">
                     <div class="avantages__bloc__grand__img img-grand-1"></div>
-                    <h3>Automatisation</h3>
+                    <h3 class="h3">Automatisation</h3>
                     <p>Automatiser ses tâches. Débarasse-toi des tâches répétitives grâce à nos solutions sur-mesure.</p>
                 </div>
 

@@ -32,3 +32,38 @@
     }
     
 }
+
+
+@media (max-width:1150px) {
+    .texte {
+        &__title{
+            font-size: 6.4rem;
+        }
+    }
+}
+
+@media (max-width:920px) {
+    .texte {
+        &__title{
+            font-size: 4.8rem;
+        }
+    }
+}
+
+
+@media (max-width:460px) {
+    .texte {
+        &__title{
+            font-size: 4rem;
+        }
+    }
+}
+
+@media (max-width:390px) {
+    .texte {
+        margin-bottom: 8rem;
+        &__title{
+            font-size: 3.2rem;
+        }
+    }
+}

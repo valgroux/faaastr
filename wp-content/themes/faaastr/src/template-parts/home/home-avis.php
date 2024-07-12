@@ -2,7 +2,7 @@
     <div class="container--1600">
         <div class="avis__content">
             <div class="avis__content__left">
-                <h2 class="h2">Ils nous font <br>confiance</h2>
+                <h2 class="h2">Ils nous font <div class="confiance">confiance</div></h2>
                 <p>Retrouvez les témoignage<br> de nos différents clients</p>
                 <div class="avis__content__left__arrow">
                     <div class="avis__content__left__arrow__left"></div>

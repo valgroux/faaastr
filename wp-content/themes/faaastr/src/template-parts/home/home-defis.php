@@ -6,7 +6,7 @@
 
             <div class="defis__top__right">
 
-                <h2 class="h2">Tes problèmes<div>Nos défis</div></h2>
+                <h2 class="h2">Tes problèmes <br> Nos défis</h2>
                 <p>Tous nos logiciels sont développés pour répondre à u besoin spécifique : le tien. Pour t’aider à grandir, nous avons besoin de comprendre les difficultés que tu rencontres. L’écoute est au coeur de notre approche pour mener à la réussite. On ne fait pas de suppositions, on veut juste des résultats</p>
 
                 <button class="cta">

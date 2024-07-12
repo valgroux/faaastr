@@ -85,3 +85,102 @@
         color:$gris--fonce;
     }
 }
+
+
+@media (max-width:1024px){
+    .defis{
+        &__top__left{
+            padding-bottom: 40rem;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .defis{
+        &__top{
+            flex-wrap: wrap;
+        }
+
+        &__top__right,
+        &__top__left{
+            width: 100%;
+        }
+
+        &__top__left{
+            padding-bottom: 48rem;
+        }
+
+        &__bottom {
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+    
+        &__bottom__bloc {
+            &:nth-child(1) {
+                grid-area: 1 / 1 / 2 / 5;
+            }
+            &:nth-child(2) {
+                grid-area: 1 / 5 / 2 / 9;
+            }
+            &:nth-child(3) {
+                grid-area: 2 / 1 / 3 / 5;
+            }
+            &:nth-child(4) {
+                grid-area: 2 / 5 / 3 / 9;
+            }
+            &:nth-child(5) {
+                grid-area: 3 / 1 / 4 / 5;
+            }
+            &:nth-child(6) {
+                grid-area: 3 / 5 / 4 / 9; 
+            }
+        }
+    }
+}
+
+@media (max-width:425px){
+    .defis{
+        &__top__left{
+            padding-bottom: 24rem;
+        }
+        &__bottom {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+        }
+
+        &__bottom__bloc {
+            text-align: center;
+            &:nth-child(1) {
+                grid-area: 1 / 1 / 2 / 5;
+            }
+            &:nth-child(2) {
+                grid-area: 2 / 1 / 3 / 5;
+            }
+            &:nth-child(3) {
+                grid-area: 3 / 1 / 4 / 5;
+            }
+            &:nth-child(4) {
+                grid-area: 4 / 1 / 5 / 5;
+            }
+            &:nth-child(5) {
+                grid-area: 5 / 1 / 6 / 5;
+            }
+            &:nth-child(6) {
+                grid-area: 6 / 1 / 7 / 5; 
+            }
+        }
+
+        &__bottom__bloc__circle{
+            margin: 0 auto;
+        }
+    
+    }
+}
+
+@media (max-width:375px){
+    .defis{
+        &__top__left{
+            padding-bottom: 21rem;
+        }
+    }
+}

@@ -60,3 +60,24 @@
         color:$blanc;
     }
 }
+
+
+@media (max-width:768px){
+    .methode{
+        background-image: none;
+        &__content{
+            display: block;
+        }
+        &__content__right{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:425px){
+    .methode{
+        &__content__right__bloc__top{
+            align-items: center;
+        }
+    }
+}
