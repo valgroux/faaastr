@@ -67,6 +67,11 @@
             endif;
             ?>
 
+            <button class="cta cta--responsive">
+                <div class="cta__icon cta__icon--arrow"></div>
+                <a href="#">Voir tous les articles</a>
+            </button>
+
         </div>
     </section>
 </div>

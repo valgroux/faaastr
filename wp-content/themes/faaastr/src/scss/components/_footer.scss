@@ -3,6 +3,51 @@
     background-image: url('src/svg/accueil/grille.svg');
     padding:8rem 0;
 
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        &__center {
+            ul {
+                display: flex;
+                gap: 4.8rem;
+
+                li a {
+                    font-size: 1.8rem;
+                    position: relative;
+                    display: inline-block;
+                    padding: 1.2rem .5rem;
+                
+                    &::after {
+                        content: '';
+                        background-color: $noir;
+                        height: .3rem;
+                        width: 70%;
+                        position: absolute;
+                        text-align: center;
+                        border-radius: 50px;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%) scaleX(0); /* Center horizontally and initially scale to 0 */
+                        transform-origin: center;
+                        transition: transform 0.4s ease-out;
+                    }
+                
+                    &:hover::after {
+                        transform: translateX(-50%) scaleX(1); /* Scale to full width while maintaining center position */
+                    }
+                }
+
+                .current-menu-item a {
+                    font-weight: 600;
+                    position: relative;
+                }
+            }
+        }
+    }
+
     &__text,
     &__cta,
     &__info{
@@ -114,4 +159,48 @@
         background-repeat: no-repeat;
     }
     
+    &__menu__right a{
+        color:$blanc;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .footer {
+        &__content__center ul {
+            flex-wrap: wrap;
+            gap: 0;
+        }
+
+        &__menu__left{
+            width: 60%;
+        }
+
+        &__content__center li {
+            width: 100%;
+            text-align: right;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        &__menu{
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+
+        &__menu__left,
+        &__menu__right{
+            width: 100%;
+        }
+
+        &__menu__right{
+            margin-bottom: 2.4rem;
+        }
+
+        &__content__center li {
+            text-align: center;
+        }
+    }
 }

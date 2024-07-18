@@ -30,7 +30,7 @@
             </div>
 
             <div class="footer__menu__right">
-                <nav class="header__content__center" role="navigation">
+                <nav class="footer__content__center" role="navigation">
                     <?php wp_nav_menu( array( 'theme_location' => 'header-desktop-menu', 'menu' => 'header-desktop', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
                 </nav>
             </div>

@@ -97,4 +97,58 @@
         background-color: $gris;
         margin-top: 4rem;
     }
+    
+    .cta--responsive{
+        display: none;
+    }
+}
+
+
+@media (max-width:1024px){
+    .blog{
+        &__article__content__center__title h3{
+            line-height: calc(2rem * 1.4);
+        }
+    }
+}
+
+
+
+@media (max-width:768px){
+    .blog{
+        &__article__content{
+            display: block;
+        }
+
+        &__article__content__left{
+            display: flex;
+            align-items: center;
+            gap:1.6rem;
+            margin-bottom: 1.6rem;
+        }
+
+        &__article__content__left__top{
+            margin-bottom: 0;
+        }
+        
+        &__article__content__right{
+            margin-top: 1.6rem;
+            justify-content: flex-start;
+        }
+    }
+}
+
+@media (max-width:425px){
+    .blog{
+        &__top{
+            display: block;
+            margin-bottom: 2.4rem;
+        }
+        &__top button{
+            display: none;
+        }
+        .cta--responsive{
+            display: block;
+        }
+    }
 }
