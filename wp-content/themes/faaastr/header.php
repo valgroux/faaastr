@@ -31,7 +31,7 @@
                 <div class="header__content__right">
                     <button class="cta">
                         <div class="cta__icon cta__icon--projet"></div>
-                        <a href="#">Tu as un projet ? Parlons en</a>
+                        <a href="https://cal.com/faaastr/consultation" target="blank">Tu as un projet ? Parlons en</a>
                     </button>
                 </div>
 

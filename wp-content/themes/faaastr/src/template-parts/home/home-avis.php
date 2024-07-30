@@ -1,4 +1,4 @@
-<section class="avis">
+<section class="avis" id="avis">
     <div class="container--1600">
         <div class="avis__content">
             <div class="avis__content__left">

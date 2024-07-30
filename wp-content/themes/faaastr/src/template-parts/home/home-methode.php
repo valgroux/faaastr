@@ -1,4 +1,4 @@
-<section class="methode">
+<section class="methode" id="methode">
 
     <div class="container--1600">
 
@@ -35,7 +35,7 @@
 
                 <button class="cta">
                     <div class="cta__icon cta__icon--arrow"></div>
-                    <a href="#">On peut t'aider, découvre comment</a>
+                    <a href="https://cal.com/faaastr/consultation" target="blank">On peut t'aider, découvre comment</a>
                 </button>
 
             </div>

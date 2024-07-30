@@ -1,5 +1,5 @@
 <div class="noir--background">
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container--1600">
 
             <div class="blog__top">

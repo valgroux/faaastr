@@ -55,12 +55,19 @@
     &__content__bloc__img{
         width: 8rem;
         height: 8rem;
-        background-image: url('src/img/accueil/homme.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 100%;
         margin: 2.4rem auto;
+    }
+
+    &__content__bloc__img--anthony{
+        background-image: url('src/img/accueil/anthony.jpeg');
+    }
+
+    &__content__bloc__img--damien{
+        background-image: url('src/img/accueil/damien.jpeg');
     }
 
     &__content__bloc__texte__job{
@@ -85,6 +92,15 @@
         width: 2.4rem;
         height: 2.4rem;
         background-image: url('src/svg/general/facebook.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    &__content__bloc__texte__reseaux__linkedin{
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('src/svg/general/linkedin.svg');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

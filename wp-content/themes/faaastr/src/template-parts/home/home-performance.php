@@ -1,4 +1,4 @@
-<section class="performance">
+<section class="performance" id="performance">
 
     <div class="performance__bloc performance__bloc--jaune">
         <p class="performance__bloc__entreprise">Eurecla</p>

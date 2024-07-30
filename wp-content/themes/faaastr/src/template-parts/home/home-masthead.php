@@ -1,4 +1,4 @@
-<section class="masthead">
+<section class="masthead" id="masthead">
     <div class="container--1600">
 
         <div class="masthead__content">
@@ -13,11 +13,11 @@
 
                     <button class="cta">
                         <div class="cta__icon cta__icon--projet"></div>
-                        <a href="#">Tu as un projet ? Parlons en</a>
+                        <a href="https://cal.com/faaastr/consultation" target="blank">Tu as un projet ? Parlons en</a>
                     </button>
 
                     <button class="cta-secondaire">
-                        <a href="#">Découvre notre méthode</a>
+                        <a href="#methode">Découvre notre méthode</a>
                     </button>
 
                 </div>

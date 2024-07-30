@@ -1,4 +1,4 @@
-<section class="defis">
+<section class="defis" id="defis">
     <div class="container--1600">
 
         <div class="defis__top">
@@ -11,7 +11,7 @@
 
                 <button class="cta">
                     <div class="cta__icon cta__icon--arrow"></div>
-                    <a href="#">Tu as un projet ? Parlons en</a>
+                    <a href="https://cal.com/faaastr/consultation" target="blank">Tu as un projet ? Parlons en</a>
                 </button>
 
             </div>

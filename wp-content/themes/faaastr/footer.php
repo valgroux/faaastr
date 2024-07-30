@@ -7,7 +7,9 @@
         </div>
 
         <div class="footer__cta">
-            <p>Let's Talk !</p>
+            <p>
+                <a href="https://cal.com/faaastr/consultation" target="blank">Let's Talk !</a>
+            </p>
         </div>
 
         <div class="footer__info">

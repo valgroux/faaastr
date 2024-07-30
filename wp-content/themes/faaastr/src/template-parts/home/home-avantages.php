@@ -1,6 +1,6 @@
 <div class="mauve-background">
 
-    <section class="avantages">
+    <section class="avantages" id="avantages">
 
         <div class="container--1400">
 
