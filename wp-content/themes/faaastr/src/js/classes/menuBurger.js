@@ -6,9 +6,13 @@ class MenuBurger {
     }
 
     addEventListeners() {
-        this.burgerBtn.addEventListener('click', () => {
-            this.burger.classList.toggle('open');
-        });
+        if (this.burgerBtn) {
+            this.burgerBtn.addEventListener('click', () => {
+                this.burger.classList.toggle('open');
+            });
+        } else {
+            console.error('Burger button not found');
+        }
     }
 }
 

@@ -1,0 +1,55 @@
+.redirection{
+    padding: 12rem 0;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    &__container__right{
+        width: 50%;
+        padding-bottom: 48rem;
+        background-image: url('src/svg/accueil/404.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    h1,p{
+        margin-bottom: 2.4rem;
+    }
+}
+
+@media (max-width:1024px){
+    .redirection{
+        padding: 4rem 0;
+    }
+}
+
+
+@media (max-width:768px){
+    .redirection{
+        padding: 8rem 0;
+
+        &__container__right{
+            padding-bottom: 24rem;
+        }
+    }
+}
+
+
+
+@media (max-width:600px){
+    .redirection{
+        &__container{
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+
+        &__container__right{
+            width: 100%;
+        }
+    }
+}

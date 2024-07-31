@@ -53,5 +53,14 @@ function add_type_attribute($tag, $handle) {
 }
 add_filter('script_loader_tag', 'add_type_attribute', 10, 2);
 
+function prefix_menu_item_url($menu_item) {
+    if (strpos($menu_item->url, '#') === 0) {
+        $menu_item->url = home_url($menu_item->url);
+    }
+    return $menu_item;
+}
+add_filter('wp_setup_nav_menu_item', 'prefix_menu_item_url');
+
+
 ?>
 
