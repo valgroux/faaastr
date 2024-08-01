@@ -1,7 +1,7 @@
 <section class="defis" id="defis">
     <div class="container--1600">
 
-        <div class="defis__top">
+        <div class="defis__top reveal">
             <div class="defis__top__left"></div>
 
             <div class="defis__top__right">
@@ -20,7 +20,7 @@
 
         <div class="defis__bottom">
 
-            <div class="defis__bottom__bloc">
+            <div class="defis__bottom__bloc reveal-fast">
 
                 <div class="defis__bottom__bloc__circle"><p>1</p></div>
                 <h3 class="h3">Tu veux gagner du temps</h3>
@@ -28,7 +28,7 @@
 
             </div>
 
-            <div class="defis__bottom__bloc">
+            <div class="defis__bottom__bloc reveal-fast">
 
                 <div class="defis__bottom__bloc__circle"><p>2</p></div>
                 <h3 class="h3">Tu veux gagner de l’argent</h3>
@@ -36,7 +36,7 @@
 
             </div>
 
-            <div class="defis__bottom__bloc">
+            <div class="defis__bottom__bloc reveal-fast">
 
                 <div class="defis__bottom__bloc__circle"><p>3</p></div>
                 <h3 class="h3">Tu veux faire grandir ton entreprise</h3>
@@ -44,7 +44,7 @@
 
             </div>
 
-            <div class="defis__bottom__bloc">
+            <div class="defis__bottom__bloc reveal-fast">
 
                 <div class="defis__bottom__bloc__circle"><p>4</p></div>
                 <h3 class="h3">Tu veux monter en compétence</h3>
@@ -52,7 +52,7 @@
 
             </div>
 
-            <div class="defis__bottom__bloc">
+            <div class="defis__bottom__bloc reveal-fast">
 
                 <div class="defis__bottom__bloc__circle"><p>5</p></div>
                 <h3 class="h3">Tu veux réduire ta charge mentale</h3>
@@ -60,7 +60,7 @@
 
             </div>
 
-            <div class="defis__bottom__bloc">
+            <div class="defis__bottom__bloc reveal-fast">
 
                 <div class="defis__bottom__bloc__circle"><p>6</p></div>
                 <h3 class="h3">Tu veux permettre à tes équipes de mieux travailler ensemble</h3>
