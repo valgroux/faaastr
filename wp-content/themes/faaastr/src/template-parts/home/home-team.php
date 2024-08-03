@@ -4,7 +4,7 @@
 
         <div class="team__content">
 
-            <div class="team__content__bloc reveal-medium">
+            <div class="team__content__bloc reveal-fast">
                 <div class="team__content__bloc__img team__content__bloc__img--damien"></div>
                 <div class="team__content__bloc__texte">
                     <h3 class="h3">Damien</h3>
@@ -20,7 +20,7 @@
 
             </div>
 
-            <div class="team__content__bloc reveal-medium">
+            <div class="team__content__bloc reveal-fast">
                 <div class="team__content__bloc__img team__content__bloc__img--anthony"></div>
                 <div class="team__content__bloc__texte">
                     <h3 class="h3">Anthony</h3>

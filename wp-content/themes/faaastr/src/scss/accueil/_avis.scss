@@ -83,9 +83,39 @@
     &__content__right__personne__img{
         width: 5.6rem;
         height: 5.6rem;
-        background-image: url('src/img/accueil/guillaume.png');
+        border-radius: 100%;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    &__content__right__personne__img--julien{
+        background-image: url('src/img/accueil/julien.jpeg');
+    }
+
+    &__content__right__personne__img--ritchy{
+        background-image: url('src/img/accueil/ritchy.jpeg');
+        background-size: cover;
+        background-position: right;
+    }
+
+    &__content__right__personne__img--vincent{
+        background-image: url('src/img/accueil/vincent.jpeg');
+    }
+
+    &__content__right__personne__img--ilyes{
+        background-image: url('src/img/accueil/ilyes.jpeg');
+    }
+
+    &__content__right__personne__img--guillaume{
+        background-image: url('src/img/accueil/guillaume.jpeg');
+    }
+
+    &__content__right__personne__img--thibaut{
+        background-image: url('src/img/accueil/thibaut.jpeg');
+    }
+
+    &__content__right__personne__img--guillaumetisserand{
+        background-image: url('src/img/accueil/guillaume-tisserand.png');
     }
 
     &__content__right__personne__texte__username{

@@ -1,6 +1,7 @@
 .footer{
     background-color: $noir;
     background-image: url('src/svg/accueil/grille.svg');
+    background-size: cover;
     padding:8rem 0;
 
     &__content {

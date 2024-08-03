@@ -1,6 +1,7 @@
 .team{
-    background-color: $noir;
-    background-image: url('src/svg/accueil/grille.svg');
+    background-color: $blanc;
+    background-image: url('src/svg/accueil/grille-clair.svg');
+    background-size: cover;
     padding: 8rem 0;
     position: relative;
 
@@ -9,7 +10,7 @@
     }
 
     h2{
-        color:$blanc;
+        color:$noir;
         text-align: center;
         margin-bottom: 4.8rem;
     }
@@ -26,6 +27,14 @@
         text-align: center;
         border-radius: .8rem;
         margin-bottom: 4.8rem;
+        border: 2px solid $noir;
+        &:nth-child(1){
+            box-shadow: 4px 4px 0px $jaune;
+        }
+
+        &:nth-child(2){
+            box-shadow: 4px 4px 0px $rose;
+        }
         // &:nth-child(1){
         //     position: relative;
         //     &::before{
