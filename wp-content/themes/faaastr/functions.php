@@ -59,5 +59,5 @@ function prefix_menu_item_url($menu_item) {
     }
     return $menu_item;
 }
+add_filter('wp_setup_nav_menu_item', 'prefix_menu_item_url');
 ?>
-
