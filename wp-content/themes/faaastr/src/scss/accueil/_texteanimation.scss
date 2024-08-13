@@ -59,9 +59,14 @@
     }
 }
 
+@media (max-width:425px){
+    .texte{
+        margin-bottom: 4rem;
+    }
+}
+
 @media (max-width:390px) {
     .texte {
-        margin-bottom: 8rem;
         &__title{
             font-size: 3.2rem;
         }

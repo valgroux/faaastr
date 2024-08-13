@@ -1,8 +1,11 @@
 .header {
-    background-color: $blanc;
     padding: 2.4rem 0;
-    position: relative;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: $blanc;
     &::after {
         content: '';
         position: absolute;
@@ -22,37 +25,21 @@
             ul {
                 display: flex;
                 gap: 4.8rem;
+                background-color: $blanc;
 
                 li a {
                     font-size: 1.8rem;
                     position: relative;
                     display: inline-block;
-                    padding: 1.2rem .5rem;
-                
-                    &::after {
-                        content: '';
-                        background-color: $noir;
-                        height: .3rem;
-                        width: 70%;
-                        position: absolute;
-                        text-align: center;
-                        border-radius: 50px;
-                        bottom: 0;
-                        left: 50%;
-                        transform: translateX(-50%) scaleX(0); /* Center horizontally and initially scale to 0 */
-                        transform-origin: center;
-                        transition: transform 0.2s ease-out;
-                    }
-                
-                    &:hover::after {
-                        transform: translateX(-50%) scaleX(1); /* Scale to full width while maintaining center position */
+                    padding: 1.2rem;
+                    transition: .2s ease-in-out;
+                    background-color: $blanc;
+
+                    &:hover {
+                        background-color: $vert;
+                        border-radius: 10rem;
                     }
                 }
-
-                // .current-menu-item a {
-                //     font-weight: 600;
-                //     position: relative;
-                // }
             }
         }
 
@@ -119,13 +106,9 @@
                 width: 32rem;
                 padding-top: 4.8rem;
 
-                li:last-child{
+                li:last-child {
                     margin-bottom: 0;
                 }
-
-                // .current-menu-item{
-                //     font-weight: 600;
-                // }
             }
 
             &__wrapper li {

@@ -5,7 +5,6 @@ import { ResizeTexteMasthead } from "./classes/resizeTexteMasthead.js";
 import { ScrollRevealAnimation } from "./classes/scrollRevealAnimation.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
-    
     const menuBurger = new MenuBurger();
     const texteAnimation = new TexteAnimation();
     const avisSlider = new AvisSlider();

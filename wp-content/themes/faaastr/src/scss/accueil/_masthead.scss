@@ -1,5 +1,5 @@
 .masthead{
-    padding-bottom: 12rem;
+    padding: 12rem 0;
 
     &__content{
         display: flex;
@@ -35,6 +35,11 @@
         gap:1.6rem;
         align-items: center;
     }  
+    
+    h2 div:nth-of-type(2),
+    h2 div:nth-of-type(3) {
+        display: inline;
+    }
 
     &__content__left__quote__left p{
         font-weight: 600;
@@ -118,6 +123,12 @@
     }
 }
 
+@media (max-width:1024px){
+    .masthead{
+        padding-top: 12rem;
+    }
+}
+
 
 @media (max-width:970px) {
     .masthead{
@@ -182,6 +193,7 @@
 
 @media (max-width:425px) {
     .masthead {
+        padding-top: 8rem;
 
         .container--1600{
             max-width: 100%;

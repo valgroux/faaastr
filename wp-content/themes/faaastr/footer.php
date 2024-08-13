@@ -14,8 +14,7 @@
 
         <div class="footer__info">
             <p>Faaastr.com<br></p>
-            <p>620 rue des Fleurs<br></p>
-            <p>+33 2 78 45 12 48 96<br></p>
+            <p>06 33 38 20 67<br></p>
         </div>
 
         <div class="footer__separator"></div>

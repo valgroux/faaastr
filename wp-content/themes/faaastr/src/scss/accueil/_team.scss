@@ -20,21 +20,31 @@
         gap:2.4rem;
     }
 
+
     &__content__bloc{
         background-color: $blanc;
         padding:4rem;
         width: calc(100% - 1.2rem);
         text-align: center;
         border-radius: .8rem;
-        margin-bottom: 4.8rem;
         border: 2px solid $noir;
-        &:nth-child(1){
-            box-shadow: 4px 4px 0px $jaune;
-        }
+        transition: .2s ease-in-out;
+        cursor: pointer;
+    }
 
-        &:nth-child(2){
-            box-shadow: 4px 4px 0px $rose;
+    &__content__bloc--damien{
+        box-shadow: 4px 4px 0px $jaune;
+        &:hover{
+            box-shadow: none;
         }
+    }
+
+    &__content__bloc--anthony{
+        box-shadow: 4px 4px 0px $rose;
+        &:hover{
+            box-shadow: none;
+        }
+    }
         // &:nth-child(1){
         //     position: relative;
         //     &::before{
@@ -59,7 +69,7 @@
         //         bottom:-10%;                
         //     }
         // }
-    }
+
 
     &__content__bloc__img{
         width: 8rem;
@@ -122,6 +132,10 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+    }
+
+    .cta{
+        margin-top: 4.8rem;
     }
 }
 

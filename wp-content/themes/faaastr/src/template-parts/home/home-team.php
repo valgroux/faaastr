@@ -4,38 +4,39 @@
 
         <div class="team__content">
 
-            <div class="team__content__bloc reveal-fast">
-                <div class="team__content__bloc__img team__content__bloc__img--damien"></div>
-                <div class="team__content__bloc__texte">
-                    <h3 class="h3">Damien</h3>
-                    <p class="team__content__bloc__texte__job">Co-fondateur</p>
-                    <p class="team__content__bloc__texte__description">Automatise les tâches les plus longues et pénibles</p>
+            <a href="https://www.linkedin.com/in/damien-dicicco/" target="blank">
+                <div class="team__content__bloc team__content__bloc--damien reveal-fast">
+                    <div class="team__content__bloc__img team__content__bloc__img--damien"></div>
+                    <div class="team__content__bloc__texte">
+                        <h3 class="h3">Damien</h3>
+                        <p class="team__content__bloc__texte__job">Co-fondateur</p>
+                        <p class="team__content__bloc__texte__description">Automatise les tâches les plus longues et pénibles</p>
 
-                    <div class="team__content__bloc__texte__reseaux">
-                        <a href="https://www.linkedin.com/in/damien-dicicco/" target="blank">
-                            <div class="team__content__bloc__texte__reseaux__linkedin"></div>
-                        </a>
+                        <!-- <div class="team__content__bloc__texte__reseaux">
+                            <a href="https://www.linkedin.com/in/damien-dicicco/" target="blank">
+                                <div class="team__content__bloc__texte__reseaux__linkedin"></div>
+                            </a>
+                        </div> -->
                     </div>
                 </div>
+            </a>
 
-            </div>
+            <a href="https://www.linkedin.com/in/anthonymathiot/" target="blank">
+                <div class="team__content__bloc team__content__bloc--anthony reveal-fast">
+                    <div class="team__content__bloc__img team__content__bloc__img--anthony"></div>
+                    <div class="team__content__bloc__texte">
+                        <h3 class="h3">Anthony</h3>
+                        <p class="team__content__bloc__texte__job">Co-fondateur</p>
+                        <p class="team__content__bloc__texte__description">Automatise les tâches les plus longues et pénibles</p>
 
-            <div class="team__content__bloc reveal-fast">
-                <div class="team__content__bloc__img team__content__bloc__img--anthony"></div>
-                <div class="team__content__bloc__texte">
-                    <h3 class="h3">Anthony</h3>
-                    <p class="team__content__bloc__texte__job">Co-fondateur</p>
-                    <p class="team__content__bloc__texte__description">Automatise les tâches les plus longues et pénibles</p>
-
-                    <div class="team__content__bloc__texte__reseaux">
-                        <a href="https://www.linkedin.com/in/anthonymathiot/" target="blank">
-                            <div class="team__content__bloc__texte__reseaux__linkedin"></div>
-                        </a>
+                        <!-- <div class="team__content__bloc__texte__reseaux">
+                            <a href="https://www.linkedin.com/in/anthonymathiot/" target="blank">
+                                <div class="team__content__bloc__texte__reseaux__linkedin"></div>
+                            </a>
+                        </div> -->
                     </div>
                 </div>
-                
-            </div>
-
+            </a>
         </div>
 
         <button class="cta">

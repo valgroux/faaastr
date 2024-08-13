@@ -8,6 +8,7 @@ class AvisSlider{
 			loop:true,
             speed: 2000,
 			autoHeight: false,
+            spaceBetween:'40',
             effect:'slide',
             autoplay: {
                 delay: 4000,
