@@ -33,42 +33,18 @@
     }
 
     &__content__bloc--damien{
-        box-shadow: 4px 4px 0px $jaune;
+        box-shadow: 8px 8px 0px $jaune;
         &:hover{
             box-shadow: none;
         }
     }
 
     &__content__bloc--anthony{
-        box-shadow: 4px 4px 0px $rose;
+        box-shadow: 8px 8px 0px $rose;
         &:hover{
             box-shadow: none;
         }
     }
-        // &:nth-child(1){
-        //     position: relative;
-        //     &::before{
-        //             position: absolute;
-        //             content:'';
-        //             width: 20rem;
-        //             height: 15rem;
-        //             background-image: url('src/svg/accueil/circle_mauve.svg');
-        //             left:-20%;
-        //             top:-10%;
-        //         }
-        // }
-        // &:nth-child(2){
-        //     position: relative;
-        //     &::after{
-        //         position: absolute;
-        //         content:'';
-        //         width: 20rem;
-        //         height: 15rem;
-        //         background-image: url('src/svg/accueil/circle_vert.svg');
-        //         right:-20%;
-        //         bottom:-10%;                
-        //     }
-        // }
 
 
     &__content__bloc__img{

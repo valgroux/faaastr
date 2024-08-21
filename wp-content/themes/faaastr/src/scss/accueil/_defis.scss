@@ -1,6 +1,6 @@
 .defis{
-    background-color: $noir;
-    background-image: url('src/svg/accueil/grille.svg');
+    background-color: $gris;
+    // background-image: url('src/svg/accueil/grille.svg');
     padding:8rem 0;
     &__top{
         display: flex;
@@ -21,12 +21,12 @@
     }
 
     &__top__right .h2{
-        color:$blanc;
+        color:$noir;
         margin-bottom: 2.4rem;
     }
 
     &__top__right p{
-        color:$blanc;
+        color:$noir;
         margin-bottom: 4rem;
     }
 
@@ -72,9 +72,12 @@
         margin-bottom: 1.6rem;
     }
     
-    &__bottom__bloc__circle p,
+    &__bottom__bloc__circle p{
+        color:$blanc
+    }
+
     &__bottom__bloc .h3{
-        color:$blanc;
+        color:$noir;
     }
     
     &__bottom__bloc .h3{
