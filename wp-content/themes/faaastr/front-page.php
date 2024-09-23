@@ -16,18 +16,18 @@
 <?php get_template_part('src/template-parts/home/home-avantages')?>
 
 <!-- SECTION NOTRE METHODE -->
-<?php get_template_part('src/template-parts/home/home-methode')?>
+<?php get_template_part('src/template-parts/components/component-methode')?>
 
 <!-- SECTION AVIS -->
-<?php get_template_part('src/template-parts/home/home-avis')?>
+<?php get_template_part('src/template-parts/components/component-avis')?>
 
 <!-- SECTION PERFORMANCE -->
-<?php get_template_part('src/template-parts/home/home-performance')?>
+<?php get_template_part('src/template-parts/components/component-performance')?>
 
 <!-- SECTION TEAM -->
-<?php get_template_part('src/template-parts/home/home-team')?>
+<?php get_template_part('src/template-parts/components/component-team')?>
 
-<!-- SECTION TEAM -->
+<!-- SECTION BLOG -->
 <!-- <?php get_template_part('src/template-parts/home/home-blog')?> -->
 
 <?php get_footer();?>

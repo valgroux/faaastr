@@ -1,0 +1,35 @@
+.mastheadOffres{
+    padding:16rem 0 8rem 0;
+
+    &__content{
+        text-align: center;
+        .h1{
+            margin-bottom: 3.2rem;
+        }
+        .h1 > span{
+            color:$jaune;
+            font-family: 'Recoleta';
+            position: relative;
+            &::after{
+                content:'';
+                width: 100%;
+                background-image: url('src/svg/general/wave.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 1.8rem;
+                position: absolute;
+                bottom: -.8rem;
+                left: 0;
+            }
+        }
+
+        &__text{
+            color:$gris--fonce;
+            margin-bottom: 2.4rem;
+        }
+
+        button{
+            margin: 0 auto;
+        }
+    }
+}

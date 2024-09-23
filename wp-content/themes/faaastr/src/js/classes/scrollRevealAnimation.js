@@ -1,5 +1,5 @@
 import ScrollReveal from 'scrollreveal';
-
+console.log('JavaScript est chargé !');
 class ScrollRevealAnimation {
     constructor() {
         this.initScrollReveal();
