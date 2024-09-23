@@ -1,4 +1,3 @@
-<?php wp_footer(); ?>
 <footer class="footer">
     <div class="container--1600">
 
@@ -40,6 +39,6 @@
 
     </div>
 </footer>
-<script type="module" src="<?php echo esc_url(get_template_directory_uri() . '/src/js/main.js'); ?>"></script>
 </body>
+<?php wp_footer(); ?>
 </html>

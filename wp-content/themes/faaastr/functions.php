@@ -60,4 +60,25 @@ function prefix_menu_item_url($menu_item) {
     return $menu_item;
 }
 add_filter('wp_setup_nav_menu_item', 'prefix_menu_item_url');
+
+function enable_article_templates() {
+    // Activer les modèles pour les articles
+    add_post_type_support('post', 'page-attributes');
+}
+add_action('init', 'enable_article_templates');
+
+add_filter( 'wpseo_breadcrumb_links', 'add_custom_breadcrumb' );
+
+function add_custom_breadcrumb( $links ) {
+    if ( is_single() && in_category( 'offre' ) ) {
+        // Ajouter un lien vers la page "Nos offres" avant le titre de l'article
+        $breadcrumb = array(
+            'url' => get_permalink( get_page_by_path( 'nos-offres' ) ),
+            'text' => 'Nos offres',
+        );
+        array_splice( $links, 1, 0, array( $breadcrumb ) );
+    }
+    return $links;
+}
 ?>
+

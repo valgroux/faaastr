@@ -1,0 +1,29 @@
+.offre-ul{
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.offre-ul li:last-child{
+    margin-bottom: 0;
+}
+
+.offre-ul li{
+    margin-bottom: 2.4rem;
+    color:$gris--fonce;
+    font-size: 1.6rem;
+    line-height: calc(1.6rem * 1.4);
+    padding-left: 4rem;
+    position: relative;
+    &::before{
+        content:'';
+        position: absolute;
+        width: 2.4rem;
+        height: 2.4rem;
+        background-color: $vert--200;
+        border-radius: 100%;
+        left:0;
+        background-image: url('src/svg/general/check.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
