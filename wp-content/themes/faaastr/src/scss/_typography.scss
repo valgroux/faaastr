@@ -213,3 +213,17 @@ p{
         line-height: calc(1.8rem * 1.4);
     }
 }
+
+
+// TEXT ALIGN LEFT //
+/* Par défaut, le texte est centré */
+.align-mobile-left {
+    text-align: center;
+}
+
+/* En version mobile, le texte sera aligné à gauche */
+@media (max-width: 425px) {
+    .align-mobile-left {
+        text-align: left;
+    }
+}

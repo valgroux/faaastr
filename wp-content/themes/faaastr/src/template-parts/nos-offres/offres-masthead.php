@@ -6,7 +6,7 @@
                 Nous automatisons vos <br>tâches <span>répétitives</span>
             </h2>
 
-            <p class="mastheadOffres__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="mastheadOffres__content__text">Découvrez toutes nos offres ci-dessous</p>
 
             <button class="cta">
                 <div class="cta__icon cta__icon--projet"></div>
