@@ -11,10 +11,10 @@
 
                 <div class="masthead__content__left__links reveal-low">
 
-                    <button class="cta">
-                        <div class="cta__icon cta__icon--projet"></div>
-                        <a href="https://cal.com/faaastr/consultation" target="blank">Tu as un projet ? Parlons en</a>
-                    </button>
+                <a class="cta" href="https://cal.com/faaastr/consultation" target="_blank">
+                    <div class="cta__icon cta__icon--projet"></div>
+                    Tu as un projet ? Parlons-en
+                </a>
 
                     <button class="cta-secondaire">
                         <a href="#methode">Découvre notre méthode</a>

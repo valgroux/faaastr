@@ -10,17 +10,15 @@
     border-radius: .5rem;
     transition: .3s;
     cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color:$blanc;
+    width: max-content;
 
     &:hover{
         background-color: $mauve;
         border: 1px solid $noir;
         box-shadow: 4px 4px 0 $vert;
-    }
-
-    a{
-        font-size: 1.6rem;
-        font-weight: 600;
-        color:$blanc;
     }
     
     &__icon{

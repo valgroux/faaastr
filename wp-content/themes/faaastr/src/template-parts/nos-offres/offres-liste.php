@@ -3,12 +3,15 @@
         <div class="liste__content">
 
         <?php
-        // Requête pour récupérer les articles de la catégorie "offre"
+            
+            $parent_id = get_page_by_path('nos-offres')->ID; 
+
+            
             $args = array(
-                'category_name' => 'offre',
-                'post_type' => 'post',
-                'posts_per_page' => -1,
-                'orderby' => 'date',
+                'post_type' => 'page',
+                'post_parent' => $parent_id, 
+                'posts_per_page' => -1, 
+                'orderby' => 'menu_order',
                 'order' => 'ASC'
             );
 
@@ -17,17 +20,17 @@
             if ($offre_query->have_posts()) : 
                 while ($offre_query->have_posts()) : $offre_query->the_post(); ?>
 
-                <div class="liste__content__bloc reveal-medium">
-                    <div class="liste__content__bloc__left">
-                        <?php the_post_thumbnail('tall'); ?>
+                    <div class="liste__content__bloc reveal-medium">
+                        <div class="liste__content__bloc__left">
+                            <?php the_post_thumbnail('tall'); ?>
+                        </div>
+                        <div class="liste__content__bloc__right">
+                            <h3 class="h3"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                            <p><?php echo wp_trim_words(get_the_content(), 30);?></p>
+                        </div>
                     </div>
-                    <div class="liste__content__bloc__right">
-                        <h3 class="h3"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                        <p><?php the_excerpt(); ?></p>
-                    </div>
-                </div>
 
-            <?php endwhile;
+                <?php endwhile;
 
             else : 
                 echo '<p>Aucune offre disponible pour le moment.</p>';
@@ -35,6 +38,8 @@
 
             wp_reset_postdata();
             ?>
+
+
         </div>
     </div>
 </section>

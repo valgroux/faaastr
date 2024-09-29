@@ -4,35 +4,35 @@
     font-family: 'Inter';
     font-weight: 400;
     src: url('src/fonts/Inter-Regular.woff2') format('woff2'),
-         url('src/fonts/Inter-Regular.woff') format('woff');
+        url('src/fonts/Inter-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Inter';
     font-weight: 500;
     src: url('src/fonts/Inter-Medium.woff2') format('woff2'),
-         url('src/fonts/Inter-Medium.woff') format('woff');
+        url('src/fonts/Inter-Medium.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Inter';
     font-weight: 600;
     src: url('src/fonts/Inter-SemiBold.woff2') format('woff2'),
-         url('src/fonts/Inter-SemiBold.woff') format('woff');
+        url('src/fonts/Inter-SemiBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Inter';
     font-weight: 700;
     src: url('src/fonts/Inter-Bold.woff2') format('woff2'),
-         url('src/fonts/Inter-Bold.woff') format('woff');
+        url('src/fonts/Inter-Bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Recoleta';
     font-weight: 700;
     src: url('src/fonts/Recoleta-Bold.woff2') format('woff2'),
-         url('src/fonts/Recoleta-Bold.woff') format('woff');
+        url('src/fonts/Recoleta-Bold.woff') format('woff');
 }
 
 
@@ -53,7 +53,35 @@
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:750px) {
+    .h1{
+        font-size: 3.8rem;
+        line-height: calc(3.8rem * 1.4);
+    }
+}
+
+@media (max-width:712px) {
+    .h1{
+        font-size: 3.6rem;
+        line-height: calc(3.6rem * 1.4);
+    }
+}
+
+@media (max-width:677px) {
+    .h1{
+        font-size: 3.4rem;
+        line-height: calc(3.4rem * 1.4);
+    }
+}
+
+@media (max-width:640px) {
+    .h1{
+        font-size: 3.2rem;
+        line-height: calc(3.4rem * 1.4);
+    }
+}
+
+@media (max-width:425px) {
     .h1{
         font-size: 3.2rem;
         line-height: calc(3.2rem * 1.4);

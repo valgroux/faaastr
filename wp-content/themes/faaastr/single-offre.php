@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Article "Nos offres"
+Template Name: Page "Nos offres"
 Template Post Type: post, page
 */
 get_header(); ?>

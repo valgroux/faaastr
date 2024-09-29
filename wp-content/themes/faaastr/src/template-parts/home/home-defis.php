@@ -9,10 +9,10 @@
                 <h2 class="h2">Tes problèmes <br> Nos défis</h2>
                 <p>Tous nos logiciels sont développés pour répondre à un besoin spécifique : <b>le tien</b>. Pour t’aider à grandir, nous avons besoin de comprendre les difficultés que tu rencontres. L’écoute est au coeur de notre approche pour mener à la réussite. On ne fait pas de suppositions, on veut juste des résultats</p>
 
-                <button class="cta">
-                    <div class="cta__icon cta__icon--arrow"></div>
-                    <a href="https://cal.com/faaastr/consultation" target="blank">Tu as un projet ? Parlons en</a>
-                </button>
+                <a class="cta" href="https://cal.com/faaastr/consultation" target="_blank">
+                        <div class="cta__icon cta__icon--arrow"></div>
+                        Tu as un projet ? Parlons-en
+                </a>
 
             </div>
 

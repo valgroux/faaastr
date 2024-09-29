@@ -33,10 +33,10 @@
                     <p>Nous ne croyons pas à une solution unique qui fonctionne pour tout le monde. Pour t’aider à booster tes KPI, on part de tes besoins plutôt que de te proposer une solution clé-en-main</p>
                 </div>
 
-                <button class="cta">
-                    <div class="cta__icon cta__icon--arrow"></div>
-                    <a href="https://cal.com/faaastr/consultation" target="blank">On peut t'aider, découvre comment</a>
-                </button>
+                <a class="cta" href="https://cal.com/faaastr/consultation" target="_blank">
+                        <div class="cta__icon cta__icon--arrow"></div>
+                        On peut t'aider, découvre comment
+                </a>
 
             </div>
 
