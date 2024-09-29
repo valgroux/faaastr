@@ -8,10 +8,13 @@
 
             <p class="mastheadOffres__content__text">Découvrez toutes nos offres ci-dessous</p>
 
-            <button class="cta">
-                <div class="cta__icon cta__icon--projet"></div>
-                <a href="https://cal.com/faaastr/consultation" target="blank">Prendre rendez-vous</a>
-            </button>
+            <div class="mastheadOffres__content__cta">
+                <a class="cta" href="https://cal.com/faaastr/consultation" target="_blank">
+                    <div class="cta__icon cta__icon--projet"></div>
+                    Prendre rendez-vous
+                </a>
+            </div>
+
 
         </div>
     </div>

@@ -23,26 +23,42 @@
                         </a>
                     <?php endif; ?>
                 </div>
-
+                
+                <?php if(is_front_page() || is_home()) : ?>
                 <nav class="header__content__center" role="navigation">
-                    <?php wp_nav_menu( array( 'theme_location' => 'header-desktop-menu', 'menu' => 'header-desktop', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
+                    <?php wp_nav_menu( array( 'theme_location' => 'header-desktop', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
                 </nav>
 
+                <?php else : ?>
+                <nav class="header__content__center" role="navigation">
+                    <?php wp_nav_menu( array( 'theme_location' => 'header-other', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
+                </nav>
+
+                <?php endif; ?>
+
                 <div class="header__content__right">
-                    <button class="cta">
+                    <a class="cta" href="https://cal.com/faaastr/consultation" target="_blank">
                         <div class="cta__icon cta__icon--projet"></div>
-                        <a href="https://cal.com/faaastr/consultation" target="blank">Tu as un projet ? Parlons en</a>
-                    </button>
+                        Tu as un projet ? Parlons-en
+                    </a>
                 </div>
+
 
                 <div id="menu" class="header__content__burger">
                     <button class="header__content__burger__btn">
                         <span class="bar bar-top"></span>
                         <span class="bar bar-bottom"></span>
                     </button>
+                    
+                    <?php if(is_front_page() || is_home()) : ?>
                     <div class="header__content__burger__wrapper">
-                        <?php wp_nav_menu( array( 'theme_location' => 'header-desktop-menu', 'menu' => 'header-desktop', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
+                        <?php wp_nav_menu( array( 'theme_location' => 'header-desktop', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
                     </div>
+                    <?php else : ?>
+                    <div class="header__content__burger__wrapper">
+                        <?php wp_nav_menu( array( 'theme_location' => 'header-other', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>', 'current_class' => 'current-menu-item' ) ); ?>
+                    </div>
+                    <?php endif; ?>
                 </div>
 
             </div>

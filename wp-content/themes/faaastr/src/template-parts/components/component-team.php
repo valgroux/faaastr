@@ -39,10 +39,12 @@
             </a>
         </div>
 
-        <button class="cta">
-            <div class="cta__icon cta__icon--arrow"></div>
-            <a href="https://cal.com/faaastr/consultation" target="blank">On fait connaissance ?</a>
-        </button>
+        <div class="team__cta">
+            <a class="cta" href="https://cal.com/faaastr/consultation" target="_blank">
+                <div class="cta__icon cta__icon--arrow"></div>
+                On fait connaissance ?
+            </a>
+        </div>
 
     </div>
 </section>

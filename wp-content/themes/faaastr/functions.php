@@ -26,11 +26,13 @@ add_theme_support('menus');
 // Enregistrer les menus
 function faaastr_register_menus() {
     register_nav_menus(array(
-        'header-menu' => __('Header Desktop Menu', 'faaastr'),
+        'header-desktop' => __('Header Desktop Menu', 'faaastr'), 
+        'header-other' => __('Header Other Menu', 'faaastr'),
         'footer-menu' => __('Footer Menu', 'faaastr')
     ));
 }
 add_action('init', 'faaastr_register_menus');
+
 
 // Ajouter les styles
 function faaastr_enqueue_styles() {
@@ -81,4 +83,3 @@ function add_custom_breadcrumb( $links ) {
     return $links;
 }
 ?>
-
