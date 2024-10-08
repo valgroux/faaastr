@@ -12,10 +12,10 @@
                     <h1 class="h1">Oups !</h1>
                     <p class="redirection__container__left__texte">La page que vous recherchez semble introuvable</p>
 
-                    <button class="cta">
-                            <div class="cta__icon cta__icon--arrow"></div>
-                            <a href="<?php echo home_url(); ?>" target="blank">Retour à l'accueil</a>
-                    </button>
+                    <a class="cta" href="<?php echo home_url(); ?>">
+                        <div class="cta__icon cta__icon--arrow"></div>
+                        Retour à l'accueil
+                    </a>
                 </div>
 
             <div class="redirection__container__right"></div>

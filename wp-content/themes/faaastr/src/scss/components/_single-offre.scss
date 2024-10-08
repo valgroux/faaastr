@@ -1,3 +1,37 @@
+.singleOffre{
+    display: inline-block;
+    &__content{
+        margin-top: 16rem;
+        display: flex;
+        align-items: center;
+        gap:1.6rem;
+        
+        &__left{
+            width: 4rem;
+            height: 4rem;
+            rotate: 180deg;
+            border-radius: 50rem;
+            background-color: $vert;
+            background-image: url('src/svg/accueil/arrow.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 50%;
+            transition: .4s ease-in-out;
+            &:hover{
+                background-size: 60%;
+            }
+        }
+
+        &__right p {
+            color:$vert;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
 .offre-ul{
     margin-top: 1.6rem;
     margin-bottom: 2.4rem;

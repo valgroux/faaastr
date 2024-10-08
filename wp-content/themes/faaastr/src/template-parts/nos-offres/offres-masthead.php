@@ -3,7 +3,7 @@
         <div class="mastheadOffres__content reveal-low">
 
             <h2 class="h1">
-                Nous automatisons vos <br>tâches <span>répétitives</span>
+                Nous automatisons <div>vos tâches <span>répétitives</span></div>
             </h2>
 
             <p class="mastheadOffres__content__text">Découvrez toutes nos offres ci-dessous</p>

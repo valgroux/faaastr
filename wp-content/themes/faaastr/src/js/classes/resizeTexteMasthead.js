@@ -15,7 +15,16 @@ class ResizeTexteMasthead {
         this.updateText();
 
         // Add resize event listener
-        window.addEventListener('resize', this.resizeHandler);
+        window.addEventListener('resize', this.debounce(this.resizeHandler, 200));
+    }
+
+    // Debounce function to limit the rate at which the resize handler is called
+    debounce(func, delay) {
+        let timeout;
+        return function(...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+        };
     }
 
     resizeHandler() {
@@ -23,13 +32,16 @@ class ResizeTexteMasthead {
     }
 
     updateText() {
-        if (window.innerWidth <= this.breakpoint) {
-            if (this.projectLink) this.projectLink.textContent = this.responsiveProjectText;
-            if (this.methodLink) this.methodLink.textContent = this.responsiveMethodText;
-        } else {
-            if (this.projectLink) this.projectLink.textContent = this.originalProjectText;
-            if (this.methodLink) this.methodLink.textContent = this.originalMethodText;
-        }
+        const textToUpdate = window.innerWidth <= this.breakpoint ? {
+            project: this.responsiveProjectText,
+            method: this.responsiveMethodText,
+        } : {
+            project: this.originalProjectText,
+            method: this.originalMethodText,
+        };
+
+        if (this.projectLink) this.projectLink.textContent = textToUpdate.project;
+        if (this.methodLink) this.methodLink.textContent = textToUpdate.method;
     }
 }
 

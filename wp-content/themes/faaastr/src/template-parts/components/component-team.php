@@ -10,7 +10,7 @@
                     <div class="team__content__bloc__texte">
                         <h3 class="h3">Damien</h3>
                         <p class="team__content__bloc__texte__job">Co-fondateur</p>
-                        <p class="team__content__bloc__texte__description">Automatise les tâches les plus longues et pénibles</p>
+                        <p class="team__content__bloc__texte__description">Mon plaisir : quand je vous vois faire les gros yeux au moment de découvrir que vos tâches les plus longues, pénibles et répétitives sont automatisées</p>
 
                         <!-- <div class="team__content__bloc__texte__reseaux">
                             <a href="https://www.linkedin.com/in/damien-dicicco/" target="blank">
@@ -27,7 +27,7 @@
                     <div class="team__content__bloc__texte">
                         <h3 class="h3">Anthony</h3>
                         <p class="team__content__bloc__texte__job">Co-fondateur</p>
-                        <p class="team__content__bloc__texte__description">Automatise les tâches les plus longues et pénibles</p>
+                        <p class="team__content__bloc__texte__description">Mon plaisir : quand je vous montre à quel point vos process les plus fastidieux ont été simplifiés en bonne intelligence, aidée de l'automatisation</p>
 
                         <!-- <div class="team__content__bloc__texte__reseaux">
                             <a href="https://www.linkedin.com/in/anthonymathiot/" target="blank">

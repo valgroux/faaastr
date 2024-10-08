@@ -5,7 +5,7 @@ Template Post Type: post, page
 */
 get_header(); ?>
 
-<div class="container--1600">
+<!-- <div class="container--1600">
 
     <div class="breadcrumb reveal-fast">
         <div class="breadcrumb__content">
@@ -14,6 +14,15 @@ get_header(); ?>
             } ?>
         </div>
     </div>
+</div> -->
+
+<div class="container--1600">
+    <a href="http://localhost/faaastr/nos-offres" class="singleOffre">
+        <div class="singleOffre__content">
+            <div class="singleOffre__content__left"></div>
+            <div class="singleOffre__content__right"><p class="small-text">Retour à la page des offres</p></div>
+        </div>
+    </a>
 </div>
 
     <!-- Contenu de l'article -->
@@ -25,6 +34,9 @@ get_header(); ?>
         endwhile;
         ?>
     </div>
+
+<!-- SECTION FAQ -->
+<?php get_template_part('src/template-parts/components/component-team')?>
 
 <!-- SECTION METHODE -->
 <?php get_template_part('src/template-parts/components/component-team')?>
