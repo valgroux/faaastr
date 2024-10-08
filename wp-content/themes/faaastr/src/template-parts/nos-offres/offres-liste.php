@@ -19,18 +19,21 @@
 
             if ($offre_query->have_posts()) : 
                 while ($offre_query->have_posts()) : $offre_query->the_post(); ?>
-
-                    <div class="liste__content__bloc reveal-medium">
-                        <div class="liste__content__bloc__left">
+                    
+                <a href="<?php the_permalink(); ?>" class="liste__content__link">
+                    <div class="liste__content__link__bloc reveal-medium">
+                        <div class="liste__content__link__bloc__left">
                             <?php the_post_thumbnail('tall'); ?>
                         </div>
-                        <div class="liste__content__bloc__right">
-                            <h3 class="h3"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                            <p><?php echo wp_trim_words(get_the_content(), 30);?></p>
+                        <div class="liste__content__link__bloc__right">
+                            <h3 class="h3"><?php the_title(); ?></h3>
+                            <p><?php echo wp_trim_words(get_the_content(), 30); ?></p>
                         </div>
                     </div>
-
+                </a>                   
+            
                 <?php endwhile;
+            
 
             else : 
                 echo '<p>Aucune offre disponible pour le moment.</p>';

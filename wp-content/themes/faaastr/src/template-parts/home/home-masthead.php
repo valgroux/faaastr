@@ -5,11 +5,11 @@
 
             <div class="masthead__content__left">
 
-                <h2 class="h1 reveal-low"><div>Marre d'être <span class="jaune"><i>lent</i></span> ?</div>On développe les outils qui te font <span class="text-highlight">gagner du temps</span> <div>et <span class="text-highlight-arrow">de l'argent</span></div></h2>
+                <h2 class="h1 reveal-fast"><div>Marre d'être <span class="jaune"><i>lent</i></span> ?</div>On développe les outils qui te font <span class="text-highlight">gagner du temps</span> <div>et <span class="text-highlight-arrow">de l'argent</span></div></h2>
 
-                <p class="masthead__content__left__text reveal-low">Découvrez le pouvoir de l'automatisation</p>
+                <p class="masthead__content__left__text reveal-fast">Découvrez le pouvoir de l'automatisation</p>
 
-                <div class="masthead__content__left__links reveal-low">
+                <div class="masthead__content__left__links reveal-fast">
 
                 <a class="cta" href="https://cal.com/faaastr/consultation" target="_blank">
                     <div class="cta__icon cta__icon--projet"></div>
@@ -22,7 +22,7 @@
 
                 </div>
 
-                <div class="masthead__content__left__quote reveal-low">
+                <div class="masthead__content__left__quote reveal-fast">
 
                     <div class="masthead__content__left__quote__left">
                         <div class="masthead__content__left__quote__star"></div>
@@ -35,7 +35,7 @@
 
             </div>
 
-            <div class="masthead__content__right reveal-low"></div>
+            <div class="masthead__content__right reveal-fast"></div>
 
         </div>
         
