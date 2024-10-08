@@ -17,7 +17,7 @@ get_header(); ?>
 </div> -->
 
 <div class="container--1600">
-    <a href="http://localhost/faaastr/nos-offres" class="singleOffre">
+    <a href="https://faaastr/nos-offres" class="singleOffre">
         <div class="singleOffre__content">
             <div class="singleOffre__content__left"></div>
             <div class="singleOffre__content__right"><p class="small-text">Retour à la page des offres</p></div>
