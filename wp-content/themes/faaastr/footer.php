@@ -12,7 +12,7 @@
         </div>
 
         <div class="footer__info">
-            <p>Faaastr.com<br></p>
+            <p>faaastr.com<br></p>
             <p>06 33 38 20 67<br></p>
         </div>
 
