@@ -5,6 +5,8 @@
 
             <div class="masthead__content__left">
 
+            <!-- titre -->
+
                 <h2 class="h1 reveal-fast"><div>Marre d'être <span class="jaune"><i>lent</i></span> ?</div>On développe les outils qui te font <span class="text-highlight">gagner du temps</span> <div>et <span class="text-highlight-arrow">de l'argent</span></div></h2>
 
                 <p class="masthead__content__left__text reveal-fast">Découvrez le pouvoir de l'automatisation</p>
